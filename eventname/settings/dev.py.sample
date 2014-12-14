@@ -1,0 +1,5 @@
+# Load defaults in order to then add/override with dev-only settings
+from defaults import *
+
+DEBUG = True
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
