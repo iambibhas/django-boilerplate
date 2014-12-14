@@ -9,4 +9,4 @@ Then create the dev settings -
 
     cp projectname/dev.py{.sample,}
 
-And override anything you want.
+Change `projectname` directory to anything you want and update `DJANGO_SETTINGS_MODULE` in `manage.py`.
