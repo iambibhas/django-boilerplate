@@ -3,7 +3,7 @@ import os
 import sys
 
 if __name__ == "__main__":
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "eventname.settings")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "projectname.settings")
     ROOT_DIR = os.path.dirname(__file__)
     sys.path.append(os.path.join(ROOT_DIR, 'apps'))
 
