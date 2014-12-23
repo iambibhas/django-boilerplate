@@ -36,9 +36,6 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    'eventos.common',
-    'eventos.accounts'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -51,9 +48,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'eventname.urls'
+ROOT_URLCONF = 'projectname.urls'
 
-WSGI_APPLICATION = 'eventname.wsgi.application'
+WSGI_APPLICATION = 'projectname.wsgi.application'
 
 
 # Database
